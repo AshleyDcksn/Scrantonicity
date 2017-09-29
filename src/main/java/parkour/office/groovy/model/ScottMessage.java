@@ -1,6 +1,6 @@
 package parkour.office.groovy.model;
 
-public class Message {
+public class ScottMessage {
     private String quote;
     private String author;
 
@@ -23,7 +23,7 @@ public class Message {
 
     @Override
     public String toString() {
-        return "Message{" +
+        return "ScottMessage{" +
                 "quote='" + quote + '\'' +
                 ", author='" + author + '\'' +
                 '}';
